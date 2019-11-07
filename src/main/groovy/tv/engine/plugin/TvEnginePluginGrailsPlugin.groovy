@@ -12,11 +12,11 @@ class TvEnginePluginGrailsPlugin extends Plugin {
     ]
 
     // TODO Fill in these fields
-    def title = "Tv Engine Plugin" // Headline display name of the plugin
-    def author = "Your name"
-    def authorEmail = ""
+    def title = "TV Engine Plugin" // Headline display name of the plugin
+    def author = "Tobias Hagenbeek"
+    def authorEmail = "tobias@tobivision.co"
     def description = '''\
-Brief summary/description of the plugin.
+TVEngine - The relational REST based data Storage Engine
 '''
 
     // URL to the plugin's documentation
@@ -25,10 +25,10 @@ Brief summary/description of the plugin.
     // Extra (optional) plugin metadata
 
     // License: one of 'APACHE', 'GPL2', 'GPL3'
-//    def license = "APACHE"
+    def license = "APACHE"
 
     // Details of company behind the plugin (if there is one)
-//    def organization = [ name: "My Company", url: "http://www.my-company.com/" ]
+    def organization = [ name: "TobiVision, Inc.", url: "https://www.tobivision.co" ]
 
     // Any additional developers beyond the author specified above.
 //    def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
@@ -37,7 +37,7 @@ Brief summary/description of the plugin.
 //    def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
 
     // Online location of the plugin's browseable source code.
-//    def scm = [ url: "http://svn.codehaus.org/grails-plugins/" ]
+    def scm = [ url: "http://git.opcenter.io/projects/TV/repos/tv-engine-plugin/browse" ]
 
     Closure doWithSpring() { {->
             // TODO Implement runtime spring config (optional)
