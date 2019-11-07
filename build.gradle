@@ -43,13 +43,13 @@ bootRun {
 bootRepackage.enabled = false
 grailsPublish {
     // TODO: Provide values here
-    user = 'user'
-    key = 'key'
-    githubSlug = 'foo/bar'
+    user = 'thagenbeek'
+    key = 'tv-engine-plugin'
+    githubSlug = 'thagenbeek/tv-engine-plugin'
     license {
         name = 'Apache-2.0'
     }
-    title = "My Plugin"
-    desc = "Full plugin description"
-    developers = [johndoe:"John Doe"]
+    title = "TV Engine Plugin"
+    desc = "TVEngine - The relational REST based data Storage Engine"
+    developers = [thagenbeek:"Tobias Hagenbeek"]
 }
